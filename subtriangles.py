@@ -223,4 +223,4 @@ if __name__ == '__main__':
     else:
         fname = 'testtriangle.txt'
 
-    print 'The optimal solution is %d' % read_triangle_file(fname).solve()
+    print('The optimal solution is %d' % read_triangle_file(fname).solve())
