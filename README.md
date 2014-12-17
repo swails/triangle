@@ -121,7 +121,7 @@ solve each of these subtriangles and the resulting, reduced triangle.
 
 Note that there is nothing inherently "special" about choosing triangles with 4
 rows to reduce the dimensionality of the problem.  It is, however, the most rows
-in which I consider the number of possible solutions reasonably enumberable
+in which I consider the number of possible solutions reasonably enumerable
 (there are 8).  So evaluating the sub-triangles for the 4th-to-last rows is
 _very_ cheap, and it results in a much larger dimensionality reduction
 (percentage-wise) than picking triangles of size 2 or 3.  Above 4, the growth in
